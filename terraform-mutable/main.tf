@@ -1,4 +1,4 @@
-module "cart" {
+module "catalogue" {
   source = "./vendor/modules/app"
   COMPONENT    = var.COMPONENT
 }
