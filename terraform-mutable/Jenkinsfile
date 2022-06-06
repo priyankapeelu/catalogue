@@ -1,4 +1,5 @@
 @Library('roboshop-shared-library@main') _
 
-env.COMPONENT="catalogue"
-nodejs()
+env.REPONAME="catalogue"
+env.TERRAFORM_DIR="terraform-mutable"
+terraform()
